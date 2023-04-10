@@ -44,12 +44,12 @@ import (
 	"github.com/dtest11/calico/felix/fv/tcpdump"
 	"github.com/dtest11/calico/felix/fv/utils"
 	"github.com/dtest11/calico/felix/fv/workload"
-	"github.com/dtest11/calicolibcalico-go/lib/apiconfig"
-	v3 "github.com/dtest11/calicolibcalico-go/lib/apis/v3"
-	"github.com/dtest11/calicolibcalico-go/lib/clientv3"
-	"github.com/dtest11/calicolibcalico-go/lib/ipam"
-	"github.com/dtest11/calicolibcalico-go/lib/net"
-	"github.com/dtest11/calicolibcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	v3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 const (

@@ -35,7 +35,7 @@ import (
 	"github.com/dtest11/calico/felix/fv/infrastructure"
 	"github.com/dtest11/calico/felix/fv/utils"
 	"github.com/dtest11/calico/felix/fv/workload"
-	client "github.com/dtest11/calicolibcalico-go/lib/clientv3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 type latencyConfig struct {

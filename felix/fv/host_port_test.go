@@ -30,8 +30,8 @@ import (
 	"github.com/dtest11/calico/felix/fv/metrics"
 	"github.com/dtest11/calico/felix/fv/utils"
 	"github.com/dtest11/calico/felix/fv/workload"
-	"github.com/dtest11/calicolibcalico-go/lib/apiconfig"
-	client "github.com/dtest11/calicolibcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 func MetricsPortReachable(felix *infrastructure.Felix, bpf bool) bool {

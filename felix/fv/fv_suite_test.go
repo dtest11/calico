@@ -30,7 +30,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/dtest11/calico/felix/fv/infrastructure"
-	"github.com/dtest11/calicolibcalico-go/lib/testutils"
+	"github.com/dtest11/calico/libcalico-go/lib/testutils"
 )
 
 var realStdout = os.Stdout
