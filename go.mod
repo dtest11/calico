@@ -1,4 +1,4 @@
-module github.com/projectcalico/calico
+module github.com/dtest11/calico
 
 go 1.18
 
