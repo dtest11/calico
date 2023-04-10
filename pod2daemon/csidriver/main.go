@@ -20,8 +20,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
-	"github.com/projectcalico/calico/pod2daemon/csidriver/driver"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/pod2daemon/csidriver/driver"
 )
 
 func main() {

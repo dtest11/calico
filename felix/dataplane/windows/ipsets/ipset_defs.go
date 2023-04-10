@@ -15,8 +15,8 @@
 package ipsets
 
 import (
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 type IPSetMetadata = ipsets.IPSetMetadata

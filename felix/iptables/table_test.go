@@ -17,15 +17,15 @@ package iptables_test
 import (
 	"time"
 
-	"github.com/projectcalico/calico/felix/environment"
-	. "github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/iptables/testutils"
-	"github.com/projectcalico/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/environment"
+	. "github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/iptables/testutils"
+	"github.com/dtest11/calico/felix/logutils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/rules"
+	"github.com/dtest11/calico/felix/rules"
 
 	log "github.com/sirupsen/logrus"
 )

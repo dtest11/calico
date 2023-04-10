@@ -38,13 +38,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/bpf/bpfdefs"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/utils"
-	"github.com/projectcalico/calico/felix/environment"
-	"github.com/projectcalico/calico/felix/labelindex"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/bpf/bpfdefs"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/utils"
+	"github.com/dtest11/calico/felix/environment"
+	"github.com/dtest11/calico/felix/labelindex"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // Hook is the hook to which a BPF program should be attached. This is relative to

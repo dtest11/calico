@@ -15,7 +15,7 @@
 package config_test
 
 import (
-	"github.com/projectcalico/calico/felix/config"
+	"github.com/dtest11/calico/felix/config"
 
 	"path"
 	"runtime"

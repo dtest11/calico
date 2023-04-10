@@ -20,9 +20,9 @@ import (
 
 	"github.com/docopt/docopt-go"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/datastore/migrate"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/datastore/migrate"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
 )
 
 // Migrate function is a switch to migrate related sub-commands

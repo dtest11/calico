@@ -32,22 +32,22 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	"github.com/projectcalico/calico/pod2daemon/binder"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/pod2daemon/binder"
 
-	"github.com/projectcalico/calico/felix/dataplane/mock"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/mock"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/proto"
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/utils"
-	"github.com/projectcalico/calico/felix/fv/workload"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/utils"
+	"github.com/dtest11/calico/felix/fv/workload"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 var _ = Context("_POL-SYNC_ _BPF-SAFE_ policy sync API tests", func() {

@@ -21,7 +21,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 var cidrFilterTests = []struct {

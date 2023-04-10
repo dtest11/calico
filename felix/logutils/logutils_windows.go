@@ -21,8 +21,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
 )
 
 // File destination for Windows

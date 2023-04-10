@@ -20,11 +20,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/dataplane/mock"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/mock"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // A state represents a particular state of the datastore and the expected

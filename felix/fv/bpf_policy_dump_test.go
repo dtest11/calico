@@ -28,11 +28,11 @@ import (
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/utils"
-	"github.com/projectcalico/calico/felix/fv/workload"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/utils"
+	"github.com/dtest11/calico/felix/fv/workload"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 var _ = infrastructure.DatastoreDescribe("_BPF-SAFE_ Felix bpf test policy dump", []apiconfig.DatastoreType{apiconfig.EtcdV3}, func(getInfra infrastructure.InfraFactory) {

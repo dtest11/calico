@@ -18,8 +18,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/dataplane/common"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/common"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var _ = Describe("Host ip manager", func() {

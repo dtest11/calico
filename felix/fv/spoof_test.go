@@ -22,9 +22,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/fv/connectivity"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/workload"
+	"github.com/dtest11/calico/felix/fv/connectivity"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/workload"
 )
 
 var _ = Describe("Spoof tests", func() {

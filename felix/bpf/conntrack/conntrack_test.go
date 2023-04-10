@@ -20,16 +20,16 @@ import (
 	"net"
 	"time"
 
-	"github.com/projectcalico/calico/felix/timeshim/mocktime"
+	"github.com/dtest11/calico/felix/timeshim/mocktime"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	v2 "github.com/projectcalico/calico/felix/bpf/conntrack/v2"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/mock"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	v2 "github.com/dtest11/calico/felix/bpf/conntrack/v2"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/mock"
 )
 
 var now = mocktime.StartKTime

@@ -23,11 +23,11 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	. "github.com/projectcalico/calico/calicoctl/tests/fv/utils"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	. "github.com/dtest11/calico/calicoctl/tests/fv/utils"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 func init() {

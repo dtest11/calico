@@ -26,14 +26,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/typha/pkg/promutils"
+	"github.com/dtest11/calico/typha/pkg/promutils"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
-	cprometheus "github.com/projectcalico/calico/libcalico-go/lib/prometheus"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
+	cprometheus "github.com/dtest11/calico/libcalico-go/lib/prometheus"
 
-	"github.com/projectcalico/calico/typha/pkg/jitter"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/jitter"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 const (

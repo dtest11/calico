@@ -19,11 +19,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/dataplane/common"
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/felix/rules"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/common"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/felix/rules"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // masqManager manages the ipsets and iptables chains used to implement the "NAT outgoing" or

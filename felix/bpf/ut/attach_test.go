@@ -24,11 +24,11 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/tc"
-	"github.com/projectcalico/calico/felix/bpf/utils"
-	"github.com/projectcalico/calico/felix/bpf/xdp"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/tc"
+	"github.com/dtest11/calico/felix/bpf/utils"
+	"github.com/dtest11/calico/felix/bpf/xdp"
 )
 
 func TestReattachPrograms(t *testing.T) {

@@ -26,13 +26,13 @@ import (
 
 	"github.com/projectcalico/go-yaml-wrapper"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/argutils"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/clientmgr"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/file"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/resourcemgr"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	calicoErrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/argutils"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/clientmgr"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/file"
+	"github.com/dtest11/calico/calicoctl/calicoctl/resourcemgr"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	calicoErrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 type action int

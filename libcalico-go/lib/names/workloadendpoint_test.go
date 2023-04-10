@@ -18,8 +18,8 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
 )
 
 var _ = DescribeTable("WorkloadEndpoint name construction, fully qualified names",

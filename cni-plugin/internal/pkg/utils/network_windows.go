@@ -23,12 +23,12 @@ import (
 	cniv1 "github.com/containernetworking/cni/pkg/types/100"
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils/cri"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils/cri"
 
-	"github.com/projectcalico/calico/cni-plugin/pkg/dataplane/windows"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	calicoclient "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/cni-plugin/pkg/dataplane/windows"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	calicoclient "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 
 	"golang.org/x/sys/windows/registry"
 )

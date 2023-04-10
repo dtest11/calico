@@ -7,11 +7,11 @@ import (
 
 	"k8s.io/klog/v2"
 
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/storage"

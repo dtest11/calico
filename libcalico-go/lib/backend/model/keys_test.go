@@ -23,11 +23,11 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sirupsen/logrus"
 
-	. "github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	. "github.com/dtest11/calico/libcalico-go/lib/backend/model"
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // interestingPaths contains seed data for the KeyFromDefaultPath fuzzer.

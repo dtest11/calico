@@ -17,8 +17,8 @@ package v1
 import (
 	"fmt"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // HostEndpoint contains information about a "bare-metal" interfaces attached to the host that is

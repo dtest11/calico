@@ -28,12 +28,12 @@ import (
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/watchersyncer"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/testutils"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/watchersyncer"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/testutils"
 )
 
 var (
@@ -137,7 +137,7 @@ var _ = Describe("Test the backend datastore multi-watch syncer", func() {
 		rs.ExpectStatusUnchanged()
 	})
 
-	// Tests the scenario found in this issue: https://github.com/projectcalico/calico/issues/6032
+	// Tests the scenario found in this issue: https://github.com/dtest11/calico/issues/6032
 	It("should handle resourceVersion expired errors", func() {
 		// Temporarily reduce the watch and list poll interval to make the tests faster.
 		// Since we are timing the processing, we still need the interval to be sufficiently

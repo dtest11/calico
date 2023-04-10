@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/maps"
 )
 
 func init() {

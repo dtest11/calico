@@ -22,8 +22,8 @@ import (
 	. "github.com/onsi/gomega"
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/filter"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/filter"
 )
 
 func TestFilter(t *testing.T) {

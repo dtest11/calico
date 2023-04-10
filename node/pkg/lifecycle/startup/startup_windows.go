@@ -24,10 +24,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/cni-plugin/pkg/dataplane/windows"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/cni-plugin/pkg/dataplane/windows"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
 )
 
 func getOSType() string {

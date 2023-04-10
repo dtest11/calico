@@ -20,8 +20,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/jitter"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/jitter"
 )
 
 // ScanVerdict represents the set of values returned by EntryScan

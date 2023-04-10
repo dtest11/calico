@@ -37,8 +37,8 @@ import (
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega/gexec"
 
-	k8sconversion "github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
+	k8sconversion "github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
 
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"

@@ -21,14 +21,14 @@ import (
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/dispatcher"
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/encap"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
 )
 
 // EncapsulationResolver is a Calculation Graph component that watches IP pool updates and

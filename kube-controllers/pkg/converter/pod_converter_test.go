@@ -21,8 +21,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/projectcalico/calico/kube-controllers/pkg/converter"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/kube-controllers/pkg/converter"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
 )
 
 var _ = Describe("PodConverter", func() {

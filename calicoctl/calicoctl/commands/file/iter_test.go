@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/file"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/file"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -28,12 +28,12 @@ import (
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
 
-	"github.com/projectcalico/calico/felix/idalloc"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/idalloc"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var (

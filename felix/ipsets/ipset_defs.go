@@ -24,11 +24,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	cprometheus "github.com/projectcalico/calico/libcalico-go/lib/prometheus"
+	cprometheus "github.com/dtest11/calico/libcalico-go/lib/prometheus"
 
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/labelindex"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/labelindex"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var (

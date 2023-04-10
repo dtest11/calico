@@ -6,7 +6,7 @@ import (
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	log "github.com/sirupsen/logrus"
 
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // Maintains a mapping of blocks to pools, based on whether the block CIDR occupies the pool CIDR.

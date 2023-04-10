@@ -15,9 +15,9 @@
 package daemon
 
 import (
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/typha/pkg/discovery"
 )
 
 func bootstrapWireguardAndFilterTyphaAddresses(

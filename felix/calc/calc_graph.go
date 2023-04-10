@@ -20,14 +20,14 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/dispatcher"
-	"github.com/projectcalico/calico/felix/labelindex"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/felix/serviceindex"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/labelindex"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/felix/serviceindex"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 var gaugeNumActiveSelectors = prometheus.NewGauge(prometheus.GaugeOpts{

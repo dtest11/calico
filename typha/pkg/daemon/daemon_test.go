@@ -26,18 +26,18 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/projectcalico/calico/typha/pkg/daemon"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	. "github.com/dtest11/calico/typha/pkg/daemon"
+	"github.com/dtest11/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	fvtests "github.com/projectcalico/calico/typha/fv-tests"
-	"github.com/projectcalico/calico/typha/pkg/config"
-	"github.com/projectcalico/calico/typha/pkg/syncclient"
-	"github.com/projectcalico/calico/typha/pkg/syncserver"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	fvtests "github.com/dtest11/calico/typha/fv-tests"
+	"github.com/dtest11/calico/typha/pkg/config"
+	"github.com/dtest11/calico/typha/pkg/syncclient"
+	"github.com/dtest11/calico/typha/pkg/syncserver"
 )
 
 var configContents = []byte(`[default]

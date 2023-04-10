@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	fm "github.com/projectcalico/calico/kube-controllers/pkg/controllers/flannelmigration"
+	fm "github.com/dtest11/calico/kube-controllers/pkg/controllers/flannelmigration"
 )
 
 var _ = Describe("flannel migration config", func() {

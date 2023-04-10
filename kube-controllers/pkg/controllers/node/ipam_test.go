@@ -29,14 +29,14 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/projectcalico/calico/kube-controllers/pkg/config"
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/kube-controllers/pkg/config"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 const (

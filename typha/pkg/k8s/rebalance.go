@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/projectcalico/calico/typha/pkg/config"
+	"github.com/dtest11/calico/typha/pkg/config"
 )
 
 type MaxConnsAPI interface {

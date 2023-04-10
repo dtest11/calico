@@ -31,21 +31,21 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/testutils"
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	k8sconversion "github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/testutils"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	k8sconversion "github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 var counterByPrefix map[string]int

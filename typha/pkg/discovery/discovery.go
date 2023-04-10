@@ -26,9 +26,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 )
 
 func init() {

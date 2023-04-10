@@ -24,9 +24,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/app-policy/policystore"
-	"github.com/projectcalico/calico/app-policy/proto"
-	"github.com/projectcalico/calico/app-policy/uds"
+	"github.com/dtest11/calico/app-policy/policystore"
+	"github.com/dtest11/calico/app-policy/proto"
+	"github.com/dtest11/calico/app-policy/uds"
 
 	envoyapi "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	"google.golang.org/grpc"

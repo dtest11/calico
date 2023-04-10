@@ -23,7 +23,7 @@ import (
 
 	calico "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/apiserver/pkg/registry/projectcalico/server"
+	"github.com/dtest11/calico/apiserver/pkg/registry/projectcalico/server"
 )
 
 // rest implements a RESTStorage for API services against etcd

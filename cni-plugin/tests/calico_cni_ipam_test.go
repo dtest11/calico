@@ -13,12 +13,12 @@ import (
 	. "github.com/onsi/gomega"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/testutils"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/testutils"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 var plugin = "calico-ipam"

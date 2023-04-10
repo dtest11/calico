@@ -15,7 +15,7 @@
 package common
 
 import (
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 type Callbacks struct {

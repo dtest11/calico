@@ -29,16 +29,16 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 
-	"github.com/projectcalico/calico/felix/fv/connectivity"
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/tcpdump"
-	"github.com/projectcalico/calico/felix/fv/utils"
+	"github.com/dtest11/calico/felix/fv/connectivity"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/tcpdump"
+	"github.com/dtest11/calico/felix/fv/utils"
 )
 
 type Workload struct {

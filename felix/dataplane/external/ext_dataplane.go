@@ -27,8 +27,8 @@ import (
 	pb "github.com/gogo/protobuf/proto"
 	log "github.com/sirupsen/logrus"
 
-	_ "github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/proto"
+	_ "github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 // StartExtDataplaneDriver starts the given driver as a child process and returns a

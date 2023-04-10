@@ -19,7 +19,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/app-policy/proto"
+	"github.com/dtest11/calico/app-policy/proto"
 )
 
 // PolicyStore is a data store that holds Calico policy information.

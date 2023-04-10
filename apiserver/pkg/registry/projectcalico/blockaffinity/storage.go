@@ -22,7 +22,7 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic/registry"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 
-	"github.com/projectcalico/calico/apiserver/pkg/registry/projectcalico/server"
+	"github.com/dtest11/calico/apiserver/pkg/registry/projectcalico/server"
 )
 
 type REST struct {

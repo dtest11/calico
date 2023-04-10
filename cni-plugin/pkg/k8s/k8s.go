@@ -29,25 +29,25 @@ import (
 	cniv1 "github.com/containernetworking/cni/pkg/types/100"
 	"github.com/containernetworking/plugins/pkg/ipam"
 
-	libipam "github.com/projectcalico/calico/libcalico-go/lib/ipam"
+	libipam "github.com/dtest11/calico/libcalico-go/lib/ipam"
 
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	k8sconversion "github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	k8sresources "github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/resources"
-	calicoclient "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	k8sconversion "github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	k8sresources "github.com/dtest11/calico/libcalico-go/lib/backend/k8s/resources"
+	calicoclient "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils"
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils/cri"
-	"github.com/projectcalico/calico/cni-plugin/pkg/dataplane"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils/cri"
+	"github.com/dtest11/calico/cni-plugin/pkg/dataplane"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
 )
 
 // CmdAddK8s performs the "ADD" operation on a kubernetes pod

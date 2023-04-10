@@ -1,8 +1,8 @@
 package routetable
 
 import (
-	"github.com/projectcalico/calico/felix/ifacemonitor"
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/ifacemonitor"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 type DummyTable struct {

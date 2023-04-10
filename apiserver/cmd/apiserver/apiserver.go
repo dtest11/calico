@@ -25,11 +25,11 @@ import (
 	"k8s.io/component-base/cli"
 	"k8s.io/component-base/logs"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	"k8s.io/klog/v2"
 
-	"github.com/projectcalico/calico/apiserver/cmd/apiserver/server"
+	"github.com/dtest11/calico/apiserver/cmd/apiserver/server"
 )
 
 func main() {

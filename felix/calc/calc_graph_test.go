@@ -15,8 +15,8 @@
 package calc_test
 
 import (
-	. "github.com/projectcalico/calico/felix/calc"
-	"github.com/projectcalico/calico/felix/config"
+	. "github.com/dtest11/calico/felix/calc"
+	"github.com/dtest11/calico/felix/config"
 
 	"reflect"
 
@@ -30,13 +30,13 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	extdataplane "github.com/projectcalico/calico/felix/dataplane/external"
-	"github.com/projectcalico/calico/felix/dataplane/mock"
-	"github.com/projectcalico/calico/felix/dispatcher"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	extdataplane "github.com/dtest11/calico/felix/dataplane/external"
+	"github.com/dtest11/calico/felix/dataplane/mock"
+	"github.com/dtest11/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 var testIP = mustParseIP("10.0.0.1")

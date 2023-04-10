@@ -18,10 +18,10 @@ import (
 	"context"
 	"errors"
 
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/watch"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	validator "github.com/dtest11/calico/libcalico-go/lib/validator/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/watch"
 )
 
 // IPAMConfigInterface has methods to work with IPAMConfig resources.

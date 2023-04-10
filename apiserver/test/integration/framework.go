@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
@@ -35,8 +35,8 @@ import (
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	calicoclient "github.com/projectcalico/api/pkg/client/clientset_generated/clientset"
 
-	"github.com/projectcalico/calico/apiserver/cmd/apiserver/server"
-	"github.com/projectcalico/calico/apiserver/pkg/apiserver"
+	"github.com/dtest11/calico/apiserver/cmd/apiserver/server"
+	"github.com/dtest11/calico/apiserver/pkg/apiserver"
 )
 
 const defaultEtcdPathPrefix = ""

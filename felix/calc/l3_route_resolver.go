@@ -22,17 +22,17 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	cresources "github.com/projectcalico/calico/libcalico-go/lib/resources"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	apiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/encap"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	cresources "github.com/dtest11/calico/libcalico-go/lib/resources"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/felix/dispatcher"
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 // L3RouteResolver is responsible for indexing (currently only IPv4 versions of):

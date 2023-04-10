@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"strings"
 
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
 )
 
 // WorkloadEndpointIdentifiers is a collection of identifiers that are used to uniquely

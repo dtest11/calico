@@ -31,17 +31,17 @@ import (
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/bpf/ipsets"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/timeshim"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/bpf/ipsets"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/timeshim"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 var _ = infrastructure.DatastoreDescribe("_BPF-SAFE_ Felix bpf test configurable map size", []apiconfig.DatastoreType{apiconfig.EtcdV3}, func(getInfra infrastructure.InfraFactory) {

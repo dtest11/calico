@@ -22,14 +22,14 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/labelindex"
-	"github.com/projectcalico/calico/felix/multidict"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/labelindex"
+	"github.com/dtest11/calico/felix/multidict"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 type EventHandler func(message interface{})

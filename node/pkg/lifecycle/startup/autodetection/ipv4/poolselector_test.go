@@ -24,7 +24,7 @@ import (
 	"github.com/onsi/ginkgo/reporters"
 	"github.com/vishvananda/netlink"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/testutils"
+	"github.com/dtest11/calico/libcalico-go/lib/testutils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

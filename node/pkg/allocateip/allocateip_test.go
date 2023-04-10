@@ -28,17 +28,17 @@ import (
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	felixconfig "github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	"github.com/projectcalico/calico/node/pkg/calicoclient"
+	felixconfig "github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/node/pkg/calicoclient"
 )
 
 func setTunnelAddressForNode(tunnelType string, n *libapi.Node, addr string) {

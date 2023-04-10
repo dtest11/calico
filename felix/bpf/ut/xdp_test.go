@@ -19,9 +19,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/projectcalico/calico/felix/bpf/failsafes"
-	"github.com/projectcalico/calico/felix/bpf/polprog"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/bpf/failsafes"
+	"github.com/dtest11/calico/felix/bpf/polprog"
+	"github.com/dtest11/calico/felix/proto"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

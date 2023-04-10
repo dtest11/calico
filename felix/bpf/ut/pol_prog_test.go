@@ -27,16 +27,16 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/asm"
-	"github.com/projectcalico/calico/felix/bpf/ipsets"
-	"github.com/projectcalico/calico/felix/bpf/jump"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/polprog"
-	"github.com/projectcalico/calico/felix/bpf/state"
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
-	"github.com/projectcalico/calico/felix/idalloc"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/asm"
+	"github.com/dtest11/calico/felix/bpf/ipsets"
+	"github.com/dtest11/calico/felix/bpf/jump"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/polprog"
+	"github.com/dtest11/calico/felix/bpf/state"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
+	"github.com/dtest11/calico/felix/idalloc"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 func TestLoadAllowAllProgram(t *testing.T) {

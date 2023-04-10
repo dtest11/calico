@@ -25,12 +25,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/projectcalico/calico/felix/bpf/bpfmap"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/bpf/mock"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	proxy "github.com/projectcalico/calico/felix/bpf/proxy"
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/bpf/bpfmap"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/bpf/mock"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	proxy "github.com/dtest11/calico/felix/bpf/proxy"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 var _ = Describe("BPF service type change", func() {

@@ -15,7 +15,7 @@
 package jump
 
 import (
-	"github.com/projectcalico/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/maps"
 )
 
 func MapForTest() maps.Map {

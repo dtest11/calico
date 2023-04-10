@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/watch"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	validator "github.com/dtest11/calico/libcalico-go/lib/validator/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/watch"
 )
 
 // TODO: Configure this to work with the public facing API instead of the lib v3 API.

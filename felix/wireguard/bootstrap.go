@@ -27,14 +27,14 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/utils/clock"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/netlinkshim"
-	apiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/netlinkshim"
+	apiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/typha/pkg/discovery"
 )
 
 // This file implements a set of functions that are called as part of the felix-start up processing. The purpose is

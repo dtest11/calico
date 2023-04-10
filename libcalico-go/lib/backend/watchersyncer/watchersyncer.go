@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
 )
 
 const (

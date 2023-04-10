@@ -22,11 +22,11 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	apiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	. "github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	apiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	. "github.com/dtest11/calico/libcalico-go/lib/backend/model"
 
-	"github.com/projectcalico/calico/felix/dataplane/mock"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/dataplane/mock"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 // Pre-defined datastore states.  Each State object wraps up the complete state

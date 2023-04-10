@@ -21,8 +21,8 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
@@ -30,9 +30,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/kube-controllers/tests/testutils"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/kube-controllers/tests/testutils"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 var _ = Describe("KubeControllersConfiguration FV tests", func() {

@@ -15,7 +15,7 @@
 package tokenizer_test
 
 import (
-	"github.com/projectcalico/calico/libcalico-go/lib/selector/tokenizer"
+	"github.com/dtest11/calico/libcalico-go/lib/selector/tokenizer"
 
 	"fmt"
 

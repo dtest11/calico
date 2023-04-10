@@ -33,11 +33,11 @@ import (
 	"go.etcd.io/etcd/client/pkg/v3/fileutil"
 	"k8s.io/client-go/rest"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	"github.com/projectcalico/calico/node/pkg/cni"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	"github.com/dtest11/calico/node/pkg/cni"
 )
 
 type config struct {

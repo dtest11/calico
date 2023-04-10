@@ -17,11 +17,11 @@ package daemon
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/netlinkshim"
-	"github.com/projectcalico/calico/felix/wireguard"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/netlinkshim"
+	"github.com/dtest11/calico/felix/wireguard"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/typha/pkg/discovery"
 )
 
 // bootstrapWireguard performs some start-up single shot bootstrapping of wireguard configuration.

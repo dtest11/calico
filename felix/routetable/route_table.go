@@ -29,16 +29,16 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/conntrack"
-	"github.com/projectcalico/calico/felix/environment"
-	"github.com/projectcalico/calico/felix/ifacemonitor"
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/logutils"
-	"github.com/projectcalico/calico/felix/netlinkshim"
-	"github.com/projectcalico/calico/felix/netlinkshim/handlemgr"
-	"github.com/projectcalico/calico/felix/timeshim"
-	cprometheus "github.com/projectcalico/calico/libcalico-go/lib/prometheus"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/conntrack"
+	"github.com/dtest11/calico/felix/environment"
+	"github.com/dtest11/calico/felix/ifacemonitor"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/netlinkshim"
+	"github.com/dtest11/calico/felix/netlinkshim/handlemgr"
+	"github.com/dtest11/calico/felix/timeshim"
+	cprometheus "github.com/dtest11/calico/libcalico-go/lib/prometheus"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var (

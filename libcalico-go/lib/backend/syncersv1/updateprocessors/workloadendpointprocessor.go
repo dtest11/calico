@@ -24,12 +24,12 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/watchersyncer"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/watchersyncer"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // Create a new SyncerUpdateProcessor to sync WorkloadEndpoint data in v1 format for
@@ -148,7 +148,7 @@ func convertWorkloadEndpointV2ToV1Value(val interface{}) (interface{}, error) {
 	// Add a label for the WEP's serviceaccount if present. We do this in the syncer rather than on the
 	// workload endpoint when we create it, because it is possible that a serviceaccount name is longer than
 	// the allowable character limit for a label.
-	// See https://github.com/projectcalico/calico/issues/4529.
+	// See https://github.com/dtest11/calico/issues/4529.
 	if v3res.Spec.ServiceAccountName != "" {
 		// It's possible that this label is already set, because earlier version of the code set this
 		// label on the WorkloadEndpoint directly. If it is, it should be safe to override it

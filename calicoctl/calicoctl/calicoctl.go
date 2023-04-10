@@ -22,10 +22,10 @@ import (
 	"github.com/docopt/docopt-go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
 )
 
 func main() {

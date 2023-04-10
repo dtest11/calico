@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	"github.com/projectcalico/calico/felix/cachingmap"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	"github.com/dtest11/calico/felix/cachingmap"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -33,12 +33,12 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/bpf/mock"
-	proxy "github.com/projectcalico/calico/felix/bpf/proxy"
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/bpf/mock"
+	proxy "github.com/dtest11/calico/felix/bpf/proxy"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 func init() {

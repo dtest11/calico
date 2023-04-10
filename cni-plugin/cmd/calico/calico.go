@@ -20,9 +20,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/cni-plugin/pkg/install"
-	"github.com/projectcalico/calico/cni-plugin/pkg/ipamplugin"
-	"github.com/projectcalico/calico/cni-plugin/pkg/plugin"
+	"github.com/dtest11/calico/cni-plugin/pkg/install"
+	"github.com/dtest11/calico/cni-plugin/pkg/ipamplugin"
+	"github.com/dtest11/calico/cni-plugin/pkg/plugin"
 )
 
 // VERSION is filled out during the build process (using git describe output)

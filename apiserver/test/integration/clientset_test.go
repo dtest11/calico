@@ -38,10 +38,10 @@ import (
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	calicoclient "github.com/projectcalico/api/pkg/client/clientset_generated/clientset"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	libclient "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	libclient "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 // TestGroupVersion is trivial.

@@ -23,7 +23,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 var (

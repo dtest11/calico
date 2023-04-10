@@ -24,7 +24,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils/hcn"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils/hcn"
 )
 
 type PolicyMarshaller interface {

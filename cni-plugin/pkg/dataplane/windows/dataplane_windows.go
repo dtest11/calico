@@ -37,12 +37,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	utilexec "k8s.io/utils/exec"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils/cri"
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils/winpol"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	calicoclient "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils/cri"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils/winpol"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	calicoclient "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 const (

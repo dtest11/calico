@@ -9,7 +9,7 @@ type Features struct {
 	// associated -w and -W arguments.
 	RestoreSupportsLock bool
 	// ChecksumOffloadBroken is true for kernels that have broken checksum offload for packets with SNATted source
-	// ports. See https://github.com/projectcalico/calico/issues/3145.  On such kernels we disable checksum offload
+	// ports. See https://github.com/dtest11/calico/issues/3145.  On such kernels we disable checksum offload
 	// on our VXLAN device.
 	ChecksumOffloadBroken bool
 	// IPIPDeviceIsL3 represent if ipip tunnels acts like other l3 devices

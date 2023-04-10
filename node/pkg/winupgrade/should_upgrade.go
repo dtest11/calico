@@ -18,12 +18,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/projectcalico/calico/node/pkg/lifecycle/utils"
+	"github.com/dtest11/calico/node/pkg/lifecycle/utils"
 
 	log "github.com/sirupsen/logrus"
 )

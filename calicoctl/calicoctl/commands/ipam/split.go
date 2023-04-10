@@ -28,12 +28,12 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/clientmgr"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/common"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/clientmgr"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/common"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 func Split(args []string) error {

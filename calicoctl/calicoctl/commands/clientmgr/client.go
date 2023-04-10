@@ -20,9 +20,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 // NewClient creates a new CalicoClient using connection information in the specified

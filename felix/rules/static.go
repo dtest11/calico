@@ -19,10 +19,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
-	. "github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
+	. "github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 func (r *DefaultRuleRenderer) StaticFilterTableChains(ipVersion uint8) (chains []*Chain) {

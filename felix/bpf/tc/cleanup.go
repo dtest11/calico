@@ -23,9 +23,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf"
 )
 
 // CleanUpProgramsAndPins makes a best effort to remove all our TC BPF programs.

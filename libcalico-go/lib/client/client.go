@@ -26,13 +26,13 @@ import (
 
 	"github.com/projectcalico/go-yaml-wrapper"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v1"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v1"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/libcalico-go/lib/backend"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	validator "github.com/dtest11/calico/libcalico-go/lib/validator/v1"
 )
 
 // Client contains

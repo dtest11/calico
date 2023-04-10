@@ -15,7 +15,7 @@
 package rules_test
 
 import (
-	. "github.com/projectcalico/calico/felix/rules"
+	. "github.com/dtest11/calico/felix/rules"
 
 	"fmt"
 	"net"
@@ -25,10 +25,10 @@ import (
 
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	"github.com/projectcalico/calico/felix/config"
-	"github.com/projectcalico/calico/felix/ipsets"
-	. "github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/config"
+	"github.com/dtest11/calico/felix/ipsets"
+	. "github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 var _ = Describe("Static", func() {

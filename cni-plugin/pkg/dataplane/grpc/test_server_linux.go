@@ -27,7 +27,7 @@ import (
 	"github.com/vishvananda/netlink"
 	"google.golang.org/grpc"
 
-	pb "github.com/projectcalico/calico/cni-plugin/pkg/dataplane/grpc/proto"
+	pb "github.com/dtest11/calico/cni-plugin/pkg/dataplane/grpc/proto"
 )
 
 type TestServer struct {

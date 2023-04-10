@@ -17,7 +17,7 @@ package v1
 import (
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // A Rule encapsulates a set of match criteria and an action.  Both selector-based security Policy

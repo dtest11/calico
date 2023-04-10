@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/projectcalico/calico/felix/bpf/arp"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/bpf/counters"
-	"github.com/projectcalico/calico/felix/bpf/failsafes"
-	"github.com/projectcalico/calico/felix/bpf/ifstate"
-	"github.com/projectcalico/calico/felix/bpf/ipsets"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	"github.com/projectcalico/calico/felix/bpf/state"
+	"github.com/dtest11/calico/felix/bpf/arp"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/bpf/counters"
+	"github.com/dtest11/calico/felix/bpf/failsafes"
+	"github.com/dtest11/calico/felix/bpf/ifstate"
+	"github.com/dtest11/calico/felix/bpf/ipsets"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	"github.com/dtest11/calico/felix/bpf/state"
 )
 
 type Maps struct {

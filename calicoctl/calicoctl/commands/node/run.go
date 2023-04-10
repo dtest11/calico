@@ -27,13 +27,13 @@ import (
 	"github.com/docopt/docopt-go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/argutils"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/clientmgr"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/argutils"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/clientmgr"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 const (

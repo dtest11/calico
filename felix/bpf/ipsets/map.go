@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 // WARNING: must be kept in sync with the definitions in bpf/polprog/pol_prog_builder.go.

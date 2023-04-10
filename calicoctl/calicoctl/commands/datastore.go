@@ -20,9 +20,9 @@ import (
 
 	"github.com/docopt/docopt-go"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/datastore"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/datastore"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
 )
 
 // Datastore function is a switch to datastore related sub-commands

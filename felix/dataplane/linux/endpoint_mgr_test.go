@@ -21,21 +21,21 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/projectcalico/calico/felix/ifacemonitor"
+	"github.com/dtest11/calico/felix/ifacemonitor"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/dataplane/common"
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/felix/routetable"
-	"github.com/projectcalico/calico/felix/rules"
-	"github.com/projectcalico/calico/felix/testutils"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/common"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/felix/routetable"
+	"github.com/dtest11/calico/felix/rules"
+	"github.com/dtest11/calico/felix/testutils"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var wlDispatchEmpty = []*iptables.Chain{

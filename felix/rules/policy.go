@@ -20,10 +20,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/hashutils"
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/hashutils"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 // ruleRenderer defined in rules_defs.go.

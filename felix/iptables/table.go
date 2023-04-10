@@ -30,11 +30,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/felix/environment"
-	"github.com/projectcalico/calico/felix/iptables/cmdshim"
-	"github.com/projectcalico/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/environment"
+	"github.com/dtest11/calico/felix/iptables/cmdshim"
+	"github.com/dtest11/calico/felix/logutils"
 )
 
 const (

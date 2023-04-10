@@ -21,11 +21,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
 	"golang.org/x/sys/unix"
 
-	"github.com/projectcalico/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/logutils"
 )
 
 const (

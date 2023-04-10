@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/projectcalico/calico/hack/release/pkg/builder"
+	"github.com/dtest11/calico/hack/release/pkg/builder"
 )
 
 var create, publish, newBranch, meta bool

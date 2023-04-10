@@ -21,7 +21,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/projectcalico/calico/node/pkg/lifecycle/utils"
+	"github.com/dtest11/calico/node/pkg/lifecycle/utils"
 )
 
 // This file contains the main shutdown processing for the calico/node.  This

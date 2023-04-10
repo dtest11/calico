@@ -15,17 +15,17 @@
 package v1_test
 
 import (
-	validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v1"
+	validator "github.com/dtest11/calico/libcalico-go/lib/validator/v1"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/scope"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v1"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/scope"
 )
 
 func init() {

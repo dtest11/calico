@@ -30,7 +30,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	calinet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	calinet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 const (

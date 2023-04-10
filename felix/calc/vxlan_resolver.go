@@ -20,12 +20,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/dispatcher"
-	"github.com/projectcalico/calico/felix/proto"
-	apiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/proto"
+	apiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // VXLANResolver is responsible for resolving node IPs and node config to calculate the

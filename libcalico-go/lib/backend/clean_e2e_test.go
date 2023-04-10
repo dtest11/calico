@@ -24,10 +24,10 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/testutils"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/backend"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/testutils"
 )
 
 type isClean interface {

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/watch"
+	"github.com/dtest11/calico/libcalico-go/lib/watch"
 
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/text/cases"
@@ -30,9 +30,9 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 var title = cases.Title(language.English)

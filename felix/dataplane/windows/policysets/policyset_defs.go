@@ -17,8 +17,8 @@ package policysets
 import (
 	"errors"
 
-	"github.com/projectcalico/calico/felix/dataplane/windows/hns"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/dataplane/windows/hns"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 const (

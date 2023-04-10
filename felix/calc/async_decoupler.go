@@ -15,7 +15,7 @@
 package calc
 
 import (
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
 )
 
 func NewSyncerCallbacksDecoupler() *SyncerCallbacksDecoupler {

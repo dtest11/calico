@@ -19,8 +19,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/felix/fv/utils"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/felix/fv/utils"
 )
 
 func RunEtcd() *containers.Container {

@@ -29,10 +29,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/projectcalico/calico/felix/config"
-	windataplane "github.com/projectcalico/calico/felix/dataplane/windows"
-	"github.com/projectcalico/calico/felix/dataplane/windows/hns"
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
+	"github.com/dtest11/calico/felix/config"
+	windataplane "github.com/dtest11/calico/felix/dataplane/windows"
+	"github.com/dtest11/calico/felix/dataplane/windows/hns"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
 )
 
 func StartDataplaneDriver(configParams *config.Config,

@@ -23,7 +23,7 @@ import (
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/resourcemgr"
+	"github.com/dtest11/calico/calicoctl/calicoctl/resourcemgr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

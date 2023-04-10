@@ -15,7 +15,7 @@
 package parser_test
 
 import (
-	"github.com/projectcalico/calico/libcalico-go/lib/selector/parser"
+	"github.com/dtest11/calico/libcalico-go/lib/selector/parser"
 
 	"fmt"
 

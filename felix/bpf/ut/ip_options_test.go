@@ -19,9 +19,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 func TestMalformedIP(t *testing.T) {

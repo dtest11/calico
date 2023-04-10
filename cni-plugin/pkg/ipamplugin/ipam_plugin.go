@@ -33,19 +33,19 @@ import (
 	"github.com/prometheus/common/log"
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	"github.com/projectcalico/calico/cni-plugin/pkg/upgrade"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	"github.com/dtest11/calico/cni-plugin/pkg/upgrade"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 func Main(version string) {

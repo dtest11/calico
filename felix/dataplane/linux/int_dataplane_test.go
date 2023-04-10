@@ -21,13 +21,13 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/config"
-	intdataplane "github.com/projectcalico/calico/felix/dataplane/linux"
-	"github.com/projectcalico/calico/felix/ifacemonitor"
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/rules"
-	"github.com/projectcalico/calico/felix/wireguard"
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
+	"github.com/dtest11/calico/felix/config"
+	intdataplane "github.com/dtest11/calico/felix/dataplane/linux"
+	"github.com/dtest11/calico/felix/ifacemonitor"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/rules"
+	"github.com/dtest11/calico/felix/wireguard"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
 )
 
 var _ = Describe("Constructor test", func() {

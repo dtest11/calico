@@ -31,12 +31,12 @@ import (
 
 	"github.com/golang/snappy"
 
-	calicotls "github.com/projectcalico/calico/crypto/pkg/tls"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/readlogger"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
-	"github.com/projectcalico/calico/typha/pkg/tlsutils"
+	calicotls "github.com/dtest11/calico/crypto/pkg/tls"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/readlogger"
+	"github.com/dtest11/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/tlsutils"
 )
 
 var nextID uint64 = 1 // Non-zero so we can tell whether it's set at all.

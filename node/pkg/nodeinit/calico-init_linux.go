@@ -27,8 +27,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/bpf/bpfdefs"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/startup"
+	"github.com/dtest11/calico/felix/bpf/bpfdefs"
+	"github.com/dtest11/calico/node/pkg/lifecycle/startup"
 )
 
 func Run(bestEffort bool) {

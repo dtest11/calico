@@ -21,11 +21,11 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/watchersyncer"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/watchersyncer"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 type UpdateHandler func(bapi.Update)

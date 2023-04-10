@@ -15,7 +15,7 @@
 package throttle_test
 
 import (
-	. "github.com/projectcalico/calico/felix/throttle"
+	. "github.com/dtest11/calico/felix/throttle"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

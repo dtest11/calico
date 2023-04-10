@@ -15,7 +15,7 @@
 package set_test
 
 import (
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

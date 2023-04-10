@@ -35,7 +35,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/utils/clock"
 
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
@@ -43,21 +43,21 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/aws"
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/config"
-	extdataplane "github.com/projectcalico/calico/felix/dataplane/external"
-	"github.com/projectcalico/calico/felix/dataplane/inactive"
-	intdataplane "github.com/projectcalico/calico/felix/dataplane/linux"
-	"github.com/projectcalico/calico/felix/idalloc"
-	"github.com/projectcalico/calico/felix/ifacemonitor"
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/logutils"
-	"github.com/projectcalico/calico/felix/markbits"
-	"github.com/projectcalico/calico/felix/rules"
-	"github.com/projectcalico/calico/felix/wireguard"
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
+	"github.com/dtest11/calico/felix/aws"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/config"
+	extdataplane "github.com/dtest11/calico/felix/dataplane/external"
+	"github.com/dtest11/calico/felix/dataplane/inactive"
+	intdataplane "github.com/dtest11/calico/felix/dataplane/linux"
+	"github.com/dtest11/calico/felix/idalloc"
+	"github.com/dtest11/calico/felix/ifacemonitor"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/markbits"
+	"github.com/dtest11/calico/felix/rules"
+	"github.com/dtest11/calico/felix/wireguard"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
 )
 
 func StartDataplaneDriver(configParams *config.Config,

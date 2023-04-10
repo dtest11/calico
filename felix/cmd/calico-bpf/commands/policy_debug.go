@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/bpf/asm"
-	"github.com/projectcalico/calico/felix/bpf/counters"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf/asm"
+	"github.com/dtest11/calico/felix/bpf/counters"
+	"github.com/dtest11/calico/felix/proto"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

@@ -15,9 +15,9 @@
 package ip_test
 
 import (
-	calinet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	calinet "github.com/dtest11/calico/libcalico-go/lib/net"
 
-	. "github.com/projectcalico/calico/felix/ip"
+	. "github.com/dtest11/calico/felix/ip"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

@@ -27,13 +27,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/argutils"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/clientmgr"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/argutils"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/clientmgr"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
 )
 
 var VERSION, GIT_REVISION string

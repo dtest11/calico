@@ -27,7 +27,7 @@ import (
 	"github.com/pkg/profile"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	log "github.com/sirupsen/logrus"
 	"go.etcd.io/etcd/client/pkg/v3/srv"
@@ -40,20 +40,20 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog/v2"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
 
-	"github.com/projectcalico/calico/crypto/pkg/tls"
-	"github.com/projectcalico/calico/kube-controllers/pkg/config"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/controller"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/flannelmigration"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/namespace"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/networkpolicy"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/node"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/pod"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/serviceaccount"
-	"github.com/projectcalico/calico/kube-controllers/pkg/status"
+	"github.com/dtest11/calico/crypto/pkg/tls"
+	"github.com/dtest11/calico/kube-controllers/pkg/config"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/controller"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/flannelmigration"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/namespace"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/networkpolicy"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/node"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/pod"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/serviceaccount"
+	"github.com/dtest11/calico/kube-controllers/pkg/status"
 )
 
 // VERSION is filled out during the build process (using git describe output)

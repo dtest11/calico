@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectcalico/calico/node/pkg/lifecycle/utils"
+	"github.com/dtest11/calico/node/pkg/lifecycle/utils"
 
 	"k8s.io/apimachinery/pkg/util/validation"
 
@@ -36,9 +36,9 @@ import (
 
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	"github.com/projectcalico/calico/felix/idalloc"
-	"github.com/projectcalico/calico/felix/stringutils"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/felix/idalloc"
+	"github.com/dtest11/calico/felix/stringutils"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 const (

@@ -26,9 +26,9 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // windwowsReservedHandle is the handle used to reserve addresses required for Windows

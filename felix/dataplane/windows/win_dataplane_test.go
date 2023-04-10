@@ -18,10 +18,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/dataplane/windows/hns"
+	"github.com/dtest11/calico/felix/dataplane/windows/hns"
 
-	"github.com/projectcalico/calico/felix/config"
-	windataplane "github.com/projectcalico/calico/felix/dataplane/windows"
+	"github.com/dtest11/calico/felix/config"
+	windataplane "github.com/dtest11/calico/felix/dataplane/windows"
 )
 
 var _ = Describe("Constructor test", func() {

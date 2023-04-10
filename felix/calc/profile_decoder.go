@@ -19,11 +19,11 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/dispatcher"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/felix/dispatcher"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
 
 	log "github.com/sirupsen/logrus"
 )

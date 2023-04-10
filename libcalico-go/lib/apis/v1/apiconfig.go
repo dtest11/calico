@@ -14,7 +14,7 @@
 
 package v1
 
-import "github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
+import "github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
 
 type DatastoreType string
 

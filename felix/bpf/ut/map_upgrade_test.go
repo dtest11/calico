@@ -22,13 +22,13 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/libbpf"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	mock "github.com/projectcalico/calico/felix/bpf/mock/multiversion"
-	v2 "github.com/projectcalico/calico/felix/bpf/mock/multiversion/v2"
-	v3 "github.com/projectcalico/calico/felix/bpf/mock/multiversion/v3"
-	v4 "github.com/projectcalico/calico/felix/bpf/mock/multiversion/v4"
-	v5 "github.com/projectcalico/calico/felix/bpf/mock/multiversion/v5"
+	"github.com/dtest11/calico/felix/bpf/libbpf"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	mock "github.com/dtest11/calico/felix/bpf/mock/multiversion"
+	v2 "github.com/dtest11/calico/felix/bpf/mock/multiversion/v2"
+	v3 "github.com/dtest11/calico/felix/bpf/mock/multiversion/v3"
+	v4 "github.com/dtest11/calico/felix/bpf/mock/multiversion/v4"
+	v5 "github.com/dtest11/calico/felix/bpf/mock/multiversion/v5"
 )
 
 const key = 0xdeadbeef

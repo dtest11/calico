@@ -15,10 +15,10 @@
 package converter
 
 import (
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v1"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // WorkloadEndpointConverter implements a set of functions used for converting between

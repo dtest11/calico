@@ -35,10 +35,10 @@ import (
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	yaml "github.com/projectcalico/go-yaml-wrapper"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/argutils"
-	yamlsep "github.com/projectcalico/calico/calicoctl/calicoctl/util/yaml"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/argutils"
+	yamlsep "github.com/dtest11/calico/calicoctl/calicoctl/util/yaml"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
 )
 
 // ResourceManager provides a useful function for each resource type.  This includes:

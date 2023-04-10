@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/projectcalico/calico/felix/fv/connectivity"
+	"github.com/dtest11/calico/felix/fv/connectivity"
 
 	"github.com/onsi/gomega/format"
 

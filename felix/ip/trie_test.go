@@ -22,8 +22,8 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 var _ = DescribeTable("CommonPrefix",

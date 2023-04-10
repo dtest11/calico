@@ -37,11 +37,11 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
 
 	"github.com/projectcalico/api/pkg/openapi"
 
-	"github.com/projectcalico/calico/apiserver/pkg/apiserver"
+	"github.com/dtest11/calico/apiserver/pkg/apiserver"
 )
 
 // CalicoServerOptions contains the aggregation of configuration structs for

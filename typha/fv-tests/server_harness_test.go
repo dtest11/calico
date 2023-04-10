@@ -29,16 +29,16 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	. "github.com/projectcalico/calico/typha/fv-tests"
-	"github.com/projectcalico/calico/typha/pkg/calc"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
-	"github.com/projectcalico/calico/typha/pkg/snapcache"
-	"github.com/projectcalico/calico/typha/pkg/syncclient"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
-	"github.com/projectcalico/calico/typha/pkg/syncserver"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	. "github.com/dtest11/calico/typha/fv-tests"
+	"github.com/dtest11/calico/typha/pkg/calc"
+	"github.com/dtest11/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/typha/pkg/snapcache"
+	"github.com/dtest11/calico/typha/pkg/syncclient"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/syncserver"
 )
 
 // ServerHarness runs a syncserver.Server with a couple of cache syncer cache types and allows for creating test

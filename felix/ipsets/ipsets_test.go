@@ -20,12 +20,12 @@ import (
 
 	"time"
 
-	"github.com/projectcalico/calico/felix/ip"
-	. "github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/labelindex"
-	"github.com/projectcalico/calico/felix/logutils"
-	"github.com/projectcalico/calico/felix/rules"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/ip"
+	. "github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/labelindex"
+	"github.com/dtest11/calico/felix/logutils"
+	"github.com/dtest11/calico/felix/rules"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 const (

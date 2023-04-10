@@ -18,7 +18,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 // GetOrRegister tries to register the given collector with Prometheus' DefaultRegisterer.  If the registration fails

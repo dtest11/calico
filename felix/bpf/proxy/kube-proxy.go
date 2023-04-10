@@ -23,11 +23,11 @@ import (
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/projectcalico/calico/felix/bpf/bpfmap"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	"github.com/projectcalico/calico/felix/cachingmap"
+	"github.com/dtest11/calico/felix/bpf/bpfmap"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	"github.com/dtest11/calico/felix/cachingmap"
 )
 
 func init() {

@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/controller"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/controller"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 const (

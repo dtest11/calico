@@ -15,7 +15,7 @@
 package config_test
 
 import (
-	"github.com/projectcalico/calico/typha/pkg/config"
+	"github.com/dtest11/calico/typha/pkg/config"
 
 	"reflect"
 

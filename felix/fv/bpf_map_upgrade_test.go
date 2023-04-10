@@ -25,11 +25,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	v2 "github.com/projectcalico/calico/felix/bpf/conntrack/v2"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/timeshim"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	v2 "github.com/dtest11/calico/felix/bpf/conntrack/v2"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/timeshim"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
 )
 
 var _ = infrastructure.DatastoreDescribe("_BPF-SAFE_ Felix bpf test conntrack map upgrade", []apiconfig.DatastoreType{apiconfig.EtcdV3}, func(getInfra infrastructure.InfraFactory) {

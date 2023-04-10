@@ -18,7 +18,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 type addrFilter interface {

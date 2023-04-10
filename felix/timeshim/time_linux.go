@@ -17,7 +17,7 @@
 package timeshim
 
 import (
-	"github.com/projectcalico/calico/felix/bpf"
+	"github.com/dtest11/calico/felix/bpf"
 )
 
 // Time is our shim interface to the time package.

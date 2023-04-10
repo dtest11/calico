@@ -3,8 +3,8 @@ package calc
 import (
 	"testing"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
 )
 
 func TestPolicyResolver_OnUpdate(t *testing.T) {

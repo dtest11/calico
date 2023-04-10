@@ -22,10 +22,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/errors"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/errors"
 )
 
 var ipamHandlePrefixes []string = []string{"ipip-tunnel-addr-", "vxlan-tunnel-addr-", "wireguard-tunnel-addr-"}

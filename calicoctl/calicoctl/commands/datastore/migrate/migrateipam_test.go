@@ -18,13 +18,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/datastore/migrate"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/datastore/migrate"
 
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/ipam"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

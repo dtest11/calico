@@ -22,17 +22,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	"github.com/docopt/docopt-go"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/typha/pkg/buildinfo"
-	"github.com/projectcalico/calico/typha/pkg/config"
-	"github.com/projectcalico/calico/typha/pkg/discovery"
-	"github.com/projectcalico/calico/typha/pkg/logutils"
-	"github.com/projectcalico/calico/typha/pkg/syncclient"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/typha/pkg/buildinfo"
+	"github.com/dtest11/calico/typha/pkg/config"
+	"github.com/dtest11/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/typha/pkg/logutils"
+	"github.com/dtest11/calico/typha/pkg/syncclient"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 const usage = `Test client for Typha, Calico's fan-out proxy.

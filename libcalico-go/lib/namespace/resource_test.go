@@ -19,7 +19,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/namespace"
+	"github.com/dtest11/calico/libcalico-go/lib/namespace"
 )
 
 var _ = Describe("lib/namespace tests", func() {

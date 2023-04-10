@@ -15,7 +15,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/projectcalico/calico/node/pkg/cni"
+	"github.com/dtest11/calico/node/pkg/cni"
 )
 
 var _ = Describe("FV tests", func() {

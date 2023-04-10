@@ -19,25 +19,25 @@ import (
 	"errors"
 	"time"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/syncersv1/nodestatussyncer"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/syncersv1/nodestatussyncer"
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/utils"
-	populator "github.com/projectcalico/calico/node/pkg/status/populators"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/node/pkg/lifecycle/utils"
+	populator "github.com/dtest11/calico/node/pkg/status/populators"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/node/pkg/status"
+	"github.com/dtest11/calico/node/pkg/status"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/libcalico-go/lib/backend"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 const (

@@ -19,26 +19,26 @@ import (
 	"os"
 	"time"
 
-	confdConfig "github.com/projectcalico/calico/confd/pkg/config"
-	confd "github.com/projectcalico/calico/confd/pkg/run"
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
-	"github.com/projectcalico/calico/node/pkg/nodeinit"
+	confdConfig "github.com/dtest11/calico/confd/pkg/config"
+	confd "github.com/dtest11/calico/confd/pkg/run"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/node/pkg/nodeinit"
 
 	"github.com/sirupsen/logrus"
 
-	felix "github.com/projectcalico/calico/felix/daemon"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
+	felix "github.com/dtest11/calico/felix/daemon"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
 
-	"github.com/projectcalico/calico/node/buildinfo"
-	"github.com/projectcalico/calico/node/cmd/calico-node/bpf"
-	"github.com/projectcalico/calico/node/pkg/allocateip"
-	"github.com/projectcalico/calico/node/pkg/cni"
-	"github.com/projectcalico/calico/node/pkg/health"
-	"github.com/projectcalico/calico/node/pkg/hostpathinit"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/shutdown"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/startup"
-	"github.com/projectcalico/calico/node/pkg/status"
-	"github.com/projectcalico/calico/node/pkg/winupgrade"
+	"github.com/dtest11/calico/node/buildinfo"
+	"github.com/dtest11/calico/node/cmd/calico-node/bpf"
+	"github.com/dtest11/calico/node/pkg/allocateip"
+	"github.com/dtest11/calico/node/pkg/cni"
+	"github.com/dtest11/calico/node/pkg/health"
+	"github.com/dtest11/calico/node/pkg/hostpathinit"
+	"github.com/dtest11/calico/node/pkg/lifecycle/shutdown"
+	"github.com/dtest11/calico/node/pkg/lifecycle/startup"
+	"github.com/dtest11/calico/node/pkg/status"
+	"github.com/dtest11/calico/node/pkg/winupgrade"
 )
 
 // Create a new flag set.

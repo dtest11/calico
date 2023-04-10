@@ -26,10 +26,10 @@ import (
 
 	"github.com/projectcalico/go-yaml-wrapper"
 
-	yamlsep "github.com/projectcalico/calico/calicoctl/calicoctl/util/yaml"
-	apiv1 "github.com/projectcalico/calico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
-	v1validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v1"
+	yamlsep "github.com/dtest11/calico/calicoctl/calicoctl/util/yaml"
+	apiv1 "github.com/dtest11/calico/libcalico-go/lib/apis/v1"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
+	v1validator "github.com/dtest11/calico/libcalico-go/lib/validator/v1"
 )
 
 var KindK8sListV1 = "List"

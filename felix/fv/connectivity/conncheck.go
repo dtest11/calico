@@ -33,8 +33,8 @@ import (
 	"github.com/onsi/gomega/types"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/fv/utils"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/felix/fv/utils"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // ConnectivityChecker records a set of connectivity expectations and supports calculating the

@@ -15,7 +15,7 @@
 package multidict_test
 
 import (
-	. "github.com/projectcalico/calico/felix/multidict"
+	. "github.com/dtest11/calico/felix/multidict"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

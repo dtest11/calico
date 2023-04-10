@@ -18,7 +18,7 @@ import (
 	"math/big"
 	"net"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/json"
+	"github.com/dtest11/calico/libcalico-go/lib/json"
 )
 
 // Sub class net.IP so that we can add JSON marshalling and unmarshalling.

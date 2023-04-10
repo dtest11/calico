@@ -17,9 +17,9 @@ package resourcemgr
 import (
 	"context"
 
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 func init() {

@@ -39,19 +39,19 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/utils"
-	"github.com/projectcalico/calico/cni-plugin/pkg/dataplane"
-	"github.com/projectcalico/calico/cni-plugin/pkg/k8s"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	"github.com/projectcalico/calico/libcalico-go/lib/logutils"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/utils"
+	"github.com/dtest11/calico/cni-plugin/pkg/dataplane"
+	"github.com/dtest11/calico/cni-plugin/pkg/k8s"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	"github.com/dtest11/calico/libcalico-go/lib/logutils"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 const testConnectionTimeout = 2 * time.Second

@@ -19,7 +19,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/ip"
 )
 
 // 10.65.0.1/32: local host

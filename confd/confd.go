@@ -7,10 +7,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/confd/pkg/buildinfo"
-	"github.com/projectcalico/calico/confd/pkg/config"
-	"github.com/projectcalico/calico/confd/pkg/run"
-	"github.com/projectcalico/calico/libcalico-go/lib/seedrng"
+	"github.com/dtest11/calico/confd/pkg/buildinfo"
+	"github.com/dtest11/calico/confd/pkg/config"
+	"github.com/dtest11/calico/confd/pkg/run"
+	"github.com/dtest11/calico/libcalico-go/lib/seedrng"
 )
 
 var (

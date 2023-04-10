@@ -12,8 +12,8 @@ import (
 	"k8s.io/kubernetes/pkg/printers"
 	printerstorage "k8s.io/kubernetes/pkg/printers/storage"
 
-	calicoprinter "github.com/projectcalico/calico/apiserver/pkg/printers/projectcalico"
-	"github.com/projectcalico/calico/apiserver/pkg/registry/projectcalico/server"
+	calicoprinter "github.com/dtest11/calico/apiserver/pkg/printers/projectcalico"
+	"github.com/dtest11/calico/apiserver/pkg/registry/projectcalico/server"
 )
 
 type REST struct {

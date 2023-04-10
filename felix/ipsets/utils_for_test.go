@@ -30,8 +30,8 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	. "github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // This file contains shared test infrastructure for testing the ipsets package.

@@ -17,7 +17,7 @@ package v1
 import (
 	"fmt"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
 )
 
 // Profile contains the details a security profile resource.  A profile is set of security rules

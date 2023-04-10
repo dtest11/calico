@@ -15,7 +15,7 @@
 package hashutils_test
 
 import (
-	. "github.com/projectcalico/calico/felix/hashutils"
+	. "github.com/dtest11/calico/felix/hashutils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

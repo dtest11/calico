@@ -7,10 +7,10 @@ import (
 	"github.com/BurntSushi/toml"
 	log "github.com/sirupsen/logrus"
 
-	logutils "github.com/projectcalico/calico/confd/pkg/log"
-	"github.com/projectcalico/calico/confd/pkg/resource/template"
+	logutils "github.com/dtest11/calico/confd/pkg/log"
+	"github.com/dtest11/calico/confd/pkg/resource/template"
 
-	"github.com/projectcalico/calico/typha/pkg/syncclientutils"
+	"github.com/dtest11/calico/typha/pkg/syncclientutils"
 )
 
 var (

@@ -18,8 +18,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
 )
 
 // Resource is implemented by all Calico resources.

@@ -23,10 +23,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/projectcalico/calico/felix/bpf/bpfmap"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	"github.com/projectcalico/calico/felix/bpf/mock"
-	proxy "github.com/projectcalico/calico/felix/bpf/proxy"
+	"github.com/dtest11/calico/felix/bpf/bpfmap"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	"github.com/dtest11/calico/felix/bpf/mock"
+	proxy "github.com/dtest11/calico/felix/bpf/proxy"
 )
 
 var _ = Describe("BPF kube-proxy", func() {

@@ -21,7 +21,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/hash"
+	"github.com/dtest11/calico/libcalico-go/lib/hash"
 )
 
 // Labels defines the interface of labels that can be used by selector

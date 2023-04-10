@@ -17,7 +17,7 @@ import (
 
 	v3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	calicorest "github.com/projectcalico/calico/apiserver/pkg/registry/projectcalico/rest"
+	calicorest "github.com/dtest11/calico/apiserver/pkg/registry/projectcalico/rest"
 )
 
 var (

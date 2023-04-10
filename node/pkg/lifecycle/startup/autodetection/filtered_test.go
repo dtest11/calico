@@ -14,9 +14,9 @@
 package autodetection_test
 
 import (
-	"github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/net"
 
-	"github.com/projectcalico/calico/node/pkg/lifecycle/startup/autodetection"
+	"github.com/dtest11/calico/node/pkg/lifecycle/startup/autodetection"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

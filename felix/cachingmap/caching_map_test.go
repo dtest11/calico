@@ -21,8 +21,8 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/projectcalico/calico/felix/cachingmap"
-	"github.com/projectcalico/calico/felix/logutils"
+	. "github.com/dtest11/calico/felix/cachingmap"
+	"github.com/dtest11/calico/felix/logutils"
 )
 
 func init() {

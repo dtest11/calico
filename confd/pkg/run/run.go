@@ -9,9 +9,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/confd/pkg/backends/calico"
-	"github.com/projectcalico/calico/confd/pkg/config"
-	"github.com/projectcalico/calico/confd/pkg/resource/template"
+	"github.com/dtest11/calico/confd/pkg/backends/calico"
+	"github.com/dtest11/calico/confd/pkg/config"
+	"github.com/dtest11/calico/confd/pkg/resource/template"
 )
 
 func Run(config *config.Config) {

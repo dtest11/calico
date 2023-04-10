@@ -19,11 +19,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 
-	"github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/felix/rules"
+	"github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/felix/rules"
 )
 
 // policyManager simply renders policy/profile updates into iptables.Chain objects and sends

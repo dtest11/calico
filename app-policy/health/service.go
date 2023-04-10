@@ -17,7 +17,7 @@ package health
 import (
 	"context"
 
-	"github.com/projectcalico/calico/app-policy/proto"
+	"github.com/dtest11/calico/app-policy/proto"
 
 	log "github.com/sirupsen/logrus"
 )

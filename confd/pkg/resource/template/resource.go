@@ -17,7 +17,7 @@ import (
 	"github.com/kelseyhightower/memkv"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/confd/pkg/backends"
+	"github.com/dtest11/calico/confd/pkg/backends"
 )
 
 type Config struct {

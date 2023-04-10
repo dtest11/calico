@@ -17,12 +17,12 @@ package bgpsyncer
 import (
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	libapiv3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/watchersyncer"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	libapiv3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/watchersyncer"
 )
 
 // New creates a new BGP v1 Syncer.  Since only etcdv3 supports Watchers for all of

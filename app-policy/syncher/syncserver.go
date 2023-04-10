@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/projectcalico/calico/app-policy/health"
-	"github.com/projectcalico/calico/app-policy/policystore"
-	"github.com/projectcalico/calico/app-policy/proto"
+	"github.com/dtest11/calico/app-policy/health"
+	"github.com/dtest11/calico/app-policy/policystore"
+	"github.com/dtest11/calico/app-policy/proto"
 
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"

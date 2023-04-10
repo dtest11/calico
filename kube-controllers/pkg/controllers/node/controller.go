@@ -23,10 +23,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/projectcalico/calico/kube-controllers/pkg/config"
-	"github.com/projectcalico/calico/kube-controllers/pkg/controllers/controller"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/kube-controllers/pkg/config"
+	"github.com/dtest11/calico/kube-controllers/pkg/controllers/controller"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 const (

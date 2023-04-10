@@ -15,16 +15,16 @@
 package rules_test
 
 import (
-	"github.com/projectcalico/calico/felix/environment"
-	. "github.com/projectcalico/calico/felix/rules"
+	"github.com/dtest11/calico/felix/environment"
+	. "github.com/dtest11/calico/felix/rules"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/ipsets"
-	"github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/ipsets"
+	"github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 var ruleTestData = []TableEntry{

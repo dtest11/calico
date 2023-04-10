@@ -30,7 +30,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
+	"github.com/dtest11/calico/felix/fv/containers"
 
 	. "github.com/onsi/gomega"
 )

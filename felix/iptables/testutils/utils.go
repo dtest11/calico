@@ -28,9 +28,9 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/iptables/cmdshim"
+	"github.com/dtest11/calico/felix/iptables/cmdshim"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
 )
 
 // This file contains shared test infrastructure for testing the iptables package.

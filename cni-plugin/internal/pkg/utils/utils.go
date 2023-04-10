@@ -34,14 +34,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/projectcalico/calico/cni-plugin/internal/pkg/azure"
-	"github.com/projectcalico/calico/cni-plugin/pkg/types"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/calico/libcalico-go/lib/names"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/cni-plugin/internal/pkg/azure"
+	"github.com/dtest11/calico/cni-plugin/pkg/types"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/names"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
 )
 
 func Min(a, b int) int {

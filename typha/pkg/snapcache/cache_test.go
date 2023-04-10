@@ -23,19 +23,19 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v3 "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
+	v3 "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
 
-	"github.com/projectcalico/calico/typha/pkg/snapcache"
+	"github.com/dtest11/calico/typha/pkg/snapcache"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
-	"github.com/projectcalico/calico/libcalico-go/lib/set"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
+	"github.com/dtest11/calico/libcalico-go/lib/set"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 type healthRecord struct {

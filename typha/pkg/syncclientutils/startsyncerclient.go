@@ -19,11 +19,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/api"
 
-	"github.com/projectcalico/calico/typha/pkg/discovery"
-	"github.com/projectcalico/calico/typha/pkg/syncclient"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/discovery"
+	"github.com/dtest11/calico/typha/pkg/syncclient"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 // MustStartSyncerClientIfTyphaConfigured starts a syncer of the requested type if typha is configured to be running.

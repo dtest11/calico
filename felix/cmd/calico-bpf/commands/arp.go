@@ -17,8 +17,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/projectcalico/calico/felix/bpf/arp"
-	"github.com/projectcalico/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/arp"
+	"github.com/dtest11/calico/felix/bpf/maps"
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

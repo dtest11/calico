@@ -27,7 +27,7 @@ import (
 	"github.com/aws/smithy-go"
 	clock "k8s.io/utils/clock/testing"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/health"
+	"github.com/dtest11/calico/libcalico-go/lib/health"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

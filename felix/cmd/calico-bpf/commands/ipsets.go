@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/projectcalico/calico/felix/bpf/ipsets"
-	"github.com/projectcalico/calico/felix/bpf/maps"
+	"github.com/dtest11/calico/felix/bpf/ipsets"
+	"github.com/dtest11/calico/felix/bpf/maps"
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 type allocationHandle struct {

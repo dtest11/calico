@@ -17,11 +17,11 @@ package ut_test
 import (
 	"testing"
 
-	"github.com/projectcalico/calico/felix/ip"
+	"github.com/dtest11/calico/felix/ip"
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/routes"
+	"github.com/dtest11/calico/felix/bpf/routes"
 )
 
 var (

@@ -26,16 +26,16 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/argutils"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/common"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/constants"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/commands/resourceloader"
-	"github.com/projectcalico/calico/calicoctl/calicoctl/util"
-	"github.com/projectcalico/calico/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/argutils"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/common"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/constants"
+	"github.com/dtest11/calico/calicoctl/calicoctl/commands/resourceloader"
+	"github.com/dtest11/calico/calicoctl/calicoctl/util"
+	"github.com/dtest11/calico/libcalico-go/lib/apis/v1/unversioned"
 
-	cconversion "github.com/projectcalico/calico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/calico/libcalico-go/lib/upgrade/converters"
-	validator "github.com/projectcalico/calico/libcalico-go/lib/validator/v3"
+	cconversion "github.com/dtest11/calico/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/dtest11/calico/libcalico-go/lib/upgrade/converters"
+	validator "github.com/dtest11/calico/libcalico-go/lib/validator/v3"
 )
 
 func Convert(args []string) error {

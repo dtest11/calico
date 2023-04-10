@@ -26,11 +26,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/multireadbuf"
+	"github.com/dtest11/calico/libcalico-go/lib/multireadbuf"
 
-	"github.com/projectcalico/calico/typha/pkg/promutils"
-	"github.com/projectcalico/calico/typha/pkg/snapcache"
-	"github.com/projectcalico/calico/typha/pkg/syncproto"
+	"github.com/dtest11/calico/typha/pkg/promutils"
+	"github.com/dtest11/calico/typha/pkg/snapcache"
+	"github.com/dtest11/calico/typha/pkg/syncproto"
 )
 
 var (

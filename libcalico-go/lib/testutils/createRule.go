@@ -22,8 +22,8 @@ import (
 
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	api "github.com/projectcalico/calico/libcalico-go/lib/apis/v1"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	api "github.com/dtest11/calico/libcalico-go/lib/apis/v1"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // CreateRule takes all fields necessary to create a api.Rule object and returns ingress and egress api.Rules.

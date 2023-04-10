@@ -23,16 +23,16 @@ import (
 	"github.com/google/gopacket/layers"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/bpf/arp"
-	"github.com/projectcalico/calico/felix/bpf/conntrack"
-	conntrack3 "github.com/projectcalico/calico/felix/bpf/conntrack/v3"
-	v3 "github.com/projectcalico/calico/felix/bpf/conntrack/v3"
-	"github.com/projectcalico/calico/felix/bpf/nat"
-	"github.com/projectcalico/calico/felix/bpf/polprog"
-	"github.com/projectcalico/calico/felix/bpf/routes"
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
-	"github.com/projectcalico/calico/felix/ip"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/bpf/arp"
+	"github.com/dtest11/calico/felix/bpf/conntrack"
+	conntrack3 "github.com/dtest11/calico/felix/bpf/conntrack/v3"
+	v3 "github.com/dtest11/calico/felix/bpf/conntrack/v3"
+	"github.com/dtest11/calico/felix/bpf/nat"
+	"github.com/dtest11/calico/felix/bpf/polprog"
+	"github.com/dtest11/calico/felix/bpf/routes"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
+	"github.com/dtest11/calico/felix/ip"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 func TestNATPodPodXNode(t *testing.T) {

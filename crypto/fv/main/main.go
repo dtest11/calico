@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/projectcalico/calico/crypto/pkg/tls"
+	"github.com/dtest11/calico/crypto/pkg/tls"
 )
 
 // This server is for testing purposes only to see if the tls config is affected by our build commands as expected.

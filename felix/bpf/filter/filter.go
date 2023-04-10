@@ -21,9 +21,9 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
 
-	"github.com/projectcalico/calico/felix/bpf/asm"
-	"github.com/projectcalico/calico/felix/bpf/maps"
-	tcdefs "github.com/projectcalico/calico/felix/bpf/tc/defs"
+	"github.com/dtest11/calico/felix/bpf/asm"
+	"github.com/dtest11/calico/felix/bpf/maps"
+	tcdefs "github.com/dtest11/calico/felix/bpf/tc/defs"
 )
 
 func New(linkType layers.LinkType, minLen int, expression string, jumpMapFD maps.FD) (asm.Insns, error) {

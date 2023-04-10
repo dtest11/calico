@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
 )
 
 func RunPolicyController(datastoreType apiconfig.DatastoreType, etcdIP, kconfigfile, ctrls string) *containers.Container {

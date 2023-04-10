@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/typha/pkg/syncclientutils"
+	"github.com/dtest11/calico/typha/pkg/syncclientutils"
 )
 
 var _ = Describe("Test TyphaConfig", func() {

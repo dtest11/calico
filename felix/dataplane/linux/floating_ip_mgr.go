@@ -21,9 +21,9 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/iptables"
-	"github.com/projectcalico/calico/felix/proto"
-	"github.com/projectcalico/calico/felix/rules"
+	"github.com/dtest11/calico/felix/iptables"
+	"github.com/dtest11/calico/felix/proto"
+	"github.com/dtest11/calico/felix/rules"
 )
 
 // A floating IP is an IP that can be used to reach a particular workload endpoint, but that the

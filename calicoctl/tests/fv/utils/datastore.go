@@ -19,9 +19,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	bapi "github.com/projectcalico/calico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	bapi "github.com/dtest11/calico/libcalico-go/lib/backend/api"
+	"github.com/dtest11/calico/libcalico-go/lib/clientv3"
 )
 
 func RunDatastoreTest(t *testing.T, testFn func(t *testing.T, kdd bool, client clientv3.Interface)) {
@@ -44,14 +44,14 @@ func RunDatastoreTest(t *testing.T, testFn func(t *testing.T, kdd bool, client c
 		RegisterTestingT(t)
 
 		// When we run Calicoctl, it picks up our environment.
-		unpatchEnv, err := PatchEnv("KUBECONFIG", "/go/src/github.com/projectcalico/calico/calicoctl/test-data/kubeconfig.yaml")
+		unpatchEnv, err := PatchEnv("KUBECONFIG", "/go/src/github.com/dtest11/calico/calicoctl/test-data/kubeconfig.yaml")
 		Expect(err).NotTo(HaveOccurred())
 		defer unpatchEnv()
 
 		// Inline configuration for a local calico client.
 		config := apiconfig.NewCalicoAPIConfig()
 		config.Spec.DatastoreType = apiconfig.Kubernetes
-		config.Spec.Kubeconfig = "/go/src/github.com/projectcalico/calico/calicoctl/test-data/kubeconfig.yaml"
+		config.Spec.Kubeconfig = "/go/src/github.com/dtest11/calico/calicoctl/test-data/kubeconfig.yaml"
 		config.Spec.K8sInsecureSkipTLSVerify = true
 		client, err := clientv3.New(*config)
 		Expect(err).NotTo(HaveOccurred())

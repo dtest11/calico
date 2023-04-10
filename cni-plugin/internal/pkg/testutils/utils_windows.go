@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectcalico/calico/cni-plugin/pkg/dataplane/windows"
+	"github.com/dtest11/calico/cni-plugin/pkg/dataplane/windows"
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/containernetworking/cni/pkg/invoke"
@@ -38,9 +38,9 @@ import (
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/calico/cni-plugin/pkg/k8s"
-	plugintypes "github.com/projectcalico/calico/cni-plugin/pkg/types"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calico/cni-plugin/pkg/k8s"
+	plugintypes "github.com/dtest11/calico/cni-plugin/pkg/types"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
 
 	"golang.org/x/sys/windows/registry"
 )

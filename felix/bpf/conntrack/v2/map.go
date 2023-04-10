@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	v3 "github.com/projectcalico/calico/felix/bpf/conntrack/v3"
-	"github.com/projectcalico/calico/felix/bpf/maps"
+	v3 "github.com/dtest11/calico/felix/bpf/conntrack/v3"
+	"github.com/dtest11/calico/felix/bpf/maps"
 )
 
 //	struct calico_ct_key {

@@ -35,20 +35,20 @@ import (
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	"github.com/projectcalico/api/pkg/lib/numorstring"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
-	libapi "github.com/projectcalico/calico/libcalico-go/lib/apis/v3"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
-	cerrors "github.com/projectcalico/calico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
-	"github.com/projectcalico/calico/libcalico-go/lib/options"
-	"github.com/projectcalico/calico/libcalico-go/lib/selector"
-	"github.com/projectcalico/calico/libcalico-go/lib/upgrade/migrator"
-	"github.com/projectcalico/calico/libcalico-go/lib/upgrade/migrator/clients"
+	"github.com/dtest11/calico/libcalico-go/lib/apiconfig"
+	libapi "github.com/dtest11/calico/libcalico-go/lib/apis/v3"
+	client "github.com/dtest11/calico/libcalico-go/lib/clientv3"
+	cerrors "github.com/dtest11/calico/libcalico-go/lib/errors"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/options"
+	"github.com/dtest11/calico/libcalico-go/lib/selector"
+	"github.com/dtest11/calico/libcalico-go/lib/upgrade/migrator"
+	"github.com/dtest11/calico/libcalico-go/lib/upgrade/migrator/clients"
 
-	"github.com/projectcalico/calico/node/pkg/calicoclient"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/startup/autodetection"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/startup/autodetection/ipv4"
-	"github.com/projectcalico/calico/node/pkg/lifecycle/utils"
+	"github.com/dtest11/calico/node/pkg/calicoclient"
+	"github.com/dtest11/calico/node/pkg/lifecycle/startup/autodetection"
+	"github.com/dtest11/calico/node/pkg/lifecycle/startup/autodetection/ipv4"
+	"github.com/dtest11/calico/node/pkg/lifecycle/utils"
 )
 
 const (

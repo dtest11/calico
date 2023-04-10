@@ -50,7 +50,7 @@ func canonical(pkg string) string {
 
 // isLocalDir takes a package path and returns whether or not it is a part of the monorepo.
 func isLocalDir(pkg string) bool {
-	return strings.Contains(pkg, "github.com/projectcalico/calico")
+	return strings.Contains(pkg, "github.com/dtest11/calico")
 }
 
 func filter(pkg string) string {

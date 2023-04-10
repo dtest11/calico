@@ -21,9 +21,9 @@ import (
 
 	apiv3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/calico/libcalico-go/lib/backend/watchersyncer"
-	cnet "github.com/projectcalico/calico/libcalico-go/lib/net"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/model"
+	"github.com/dtest11/calico/libcalico-go/lib/backend/watchersyncer"
+	cnet "github.com/dtest11/calico/libcalico-go/lib/net"
 )
 
 // Create a new SyncerUpdateProcessor to sync GlobalNetworkSet data in v1 format for

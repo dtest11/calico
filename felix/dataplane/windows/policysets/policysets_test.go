@@ -21,8 +21,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/dataplane/windows/hns"
-	"github.com/projectcalico/calico/felix/proto"
+	"github.com/dtest11/calico/felix/dataplane/windows/hns"
+	"github.com/dtest11/calico/felix/proto"
 )
 
 func TestRuleRenderingWithStaticRules(t *testing.T) {
