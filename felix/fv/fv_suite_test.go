@@ -29,7 +29,7 @@ import (
 	"github.com/onsi/ginkgo/reporters"
 	. "github.com/onsi/gomega"
 
-	"github.com/dtest11/calicofelix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
 	"github.com/dtest11/calicolibcalico-go/lib/testutils"
 )
 

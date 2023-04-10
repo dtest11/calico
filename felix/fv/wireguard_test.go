@@ -38,12 +38,12 @@ import (
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/dtest11/calicofelix/fv/connectivity"
-	"github.com/dtest11/calicofelix/fv/containers"
-	"github.com/dtest11/calicofelix/fv/infrastructure"
-	"github.com/dtest11/calicofelix/fv/tcpdump"
-	"github.com/dtest11/calicofelix/fv/utils"
-	"github.com/dtest11/calicofelix/fv/workload"
+	"github.com/dtest11/calico/felix/fv/connectivity"
+	"github.com/dtest11/calico/felix/fv/containers"
+	"github.com/dtest11/calico/felix/fv/infrastructure"
+	"github.com/dtest11/calico/felix/fv/tcpdump"
+	"github.com/dtest11/calico/felix/fv/utils"
+	"github.com/dtest11/calico/felix/fv/workload"
 	"github.com/dtest11/calicolibcalico-go/lib/apiconfig"
 	v3 "github.com/dtest11/calicolibcalico-go/lib/apis/v3"
 	"github.com/dtest11/calicolibcalico-go/lib/clientv3"
