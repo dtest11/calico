@@ -31,10 +31,10 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/calico/felix/bpf"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/workload"
-	"github.com/projectcalico/calico/libcalico-go/lib/apiconfig"
+	"github.com/dtest11/calicofelix/bpf"
+	"github.com/dtest11/calicofelix/fv/infrastructure"
+	"github.com/dtest11/calicofelix/fv/workload"
+	"github.com/dtest11/calicolibcalico-go/lib/apiconfig"
 )
 
 type mapEntry struct {

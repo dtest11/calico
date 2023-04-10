@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/projectcalico/calico/felix/fv/connectivity"
+	"github.com/dtest11/calicofelix/fv/connectivity"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -31,11 +31,11 @@ import (
 
 	api "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 
-	"github.com/projectcalico/calico/felix/fv/containers"
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/felix/fv/utils"
-	"github.com/projectcalico/calico/felix/fv/workload"
-	client "github.com/projectcalico/calico/libcalico-go/lib/clientv3"
+	"github.com/dtest11/calicofelix/fv/containers"
+	"github.com/dtest11/calicofelix/fv/infrastructure"
+	"github.com/dtest11/calicofelix/fv/utils"
+	"github.com/dtest11/calicofelix/fv/workload"
+	client "github.com/dtest11/calicolibcalico-go/lib/clientv3"
 )
 
 type latencyConfig struct {

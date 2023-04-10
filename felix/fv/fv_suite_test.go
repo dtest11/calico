@@ -29,8 +29,8 @@ import (
 	"github.com/onsi/ginkgo/reporters"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/calico/felix/fv/infrastructure"
-	"github.com/projectcalico/calico/libcalico-go/lib/testutils"
+	"github.com/dtest11/calicofelix/fv/infrastructure"
+	"github.com/dtest11/calicolibcalico-go/lib/testutils"
 )
 
 var realStdout = os.Stdout
